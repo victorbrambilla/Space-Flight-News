@@ -1,4 +1,4 @@
-import { ArticleModel } from '../models';
+import { ArticleModel } from '@/domain/models';
 
 export interface GetArticles {
   perform(params: GetArticles.Params): Promise<GetArticles.Result>;

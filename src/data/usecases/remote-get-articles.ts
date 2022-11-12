@@ -1,5 +1,5 @@
-import { GetArticles } from '../../domain/usecases';
-import { GetArticlesRepository } from '../protocols';
+import { GetArticlesRepository } from '@/data/protocols';
+import { GetArticles } from '@/domain/usecases';
 
 export class RemoteGetArticles implements GetArticles {
   constructor(private readonly getArticlesRepository: GetArticlesRepository) {}

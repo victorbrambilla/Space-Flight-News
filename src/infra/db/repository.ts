@@ -1,5 +1,5 @@
+import { GetArticlesRepository } from '@/data/protocols';
 import { Axios } from 'axios';
-import { GetArticlesRepository } from '../../data/protocols';
 
 export class ArticlesRepository implements GetArticlesRepository {
   constructor(private readonly api: Axios) {}

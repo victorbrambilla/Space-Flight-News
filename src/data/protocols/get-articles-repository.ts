@@ -1,4 +1,4 @@
-import { GetArticles } from '../../domain/usecases';
+import { GetArticles } from '@/domain/usecases';
 
 export interface GetArticlesRepository {
   GetArticles(
