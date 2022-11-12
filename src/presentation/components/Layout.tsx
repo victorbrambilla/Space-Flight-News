@@ -16,6 +16,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed',
         }}
       >
         {children}
