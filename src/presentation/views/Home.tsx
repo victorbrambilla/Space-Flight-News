@@ -15,7 +15,7 @@ interface IProps {
 export const Home = ({ data }: IProps) => {
   const [params, setParams] = React.useState<GetArticles.Params>({
     _limit: 10,
-    _start: 1,
+    _start: 0,
   });
   const [isFirstRender, setIsFirstRender] = React.useState(true);
   const [news, setNews] = React.useState<ArticleModel[]>();
