@@ -69,10 +69,12 @@ export default function Modal({ news }: IProps) {
             display: 'flex',
             padding: '40px',
             gap: '10px',
+            flexWrap: 'wrap',
             backgroundColor: 'rgba(68, 68, 68, 0.08)',
             flexDirection: 'row',
             '@media (max-width:800px)': {
               overflowY: 'auto',
+              flexWrap: 'nowrap',
               flexDirection: 'column',
               padding: '10px',
             },
@@ -95,6 +97,9 @@ export default function Modal({ news }: IProps) {
               flexDirection: 'column',
               minWidth: '300px',
               flex: 2,
+              '@media (max-width:800px)': {
+                minWidth: '100%',
+              },
             }}
           >
             <CardContent>

@@ -46,6 +46,9 @@ export const CardNews = ({ news, index }: IProps) => {
           flexDirection: 'column',
           minWidth: '300px',
           flex: 2,
+          '@media (max-width:800px)': {
+            minWidth: '100%',
+          },
         }}
       >
         <CardContent>
