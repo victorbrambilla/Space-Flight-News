@@ -10,6 +10,9 @@ import {
 } from '@mui/material';
 import { ArticleModel } from '@/domain/models';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import dynamic from 'next/dynamic';
+
+const Modal = dynamic(() => import('./Modal'));
 
 interface IProps {
   news: ArticleModel;
@@ -81,9 +84,7 @@ export const CardNews = ({ news, index }: IProps) => {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size='large' variant='contained'>
-            Ver Mais
-          </Button>
+          <Modal news={news} />
         </CardActions>
       </Box>
       <CardMedia
