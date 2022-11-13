@@ -63,13 +63,12 @@ export default function Modal({ news }: IProps) {
           }}
         >
           <CloseIcon />
-        </IconButton>{' '}
+        </IconButton>
         <Card
           sx={{
             display: 'flex',
             padding: '40px',
             gap: '10px',
-            flexWrap: 'wrap',
             backgroundColor: 'rgba(68, 68, 68, 0.08)',
             flexDirection: 'row',
             '@media (max-width:800px)': {
