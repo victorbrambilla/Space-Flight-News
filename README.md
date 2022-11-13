@@ -2,11 +2,15 @@
 
 Projeto feito para listagens de notícias espaciais consumindo a API [Space Flight News](https://www.spaceflightnewsapi.net)
 
+https://space-flight-news-two.vercel.app/
+
 ## Contruída com as seguintes tecnologias:
 - [x] Next - https://nextjs.org/
 - [x] Typescript - https://www.typescriptlang.org/
 - [x] MUI - https://mui.com/pt/
 - [x] axios - https://axios-http.com/ptbr/
+- [x] jest
+- [x] Docker
 
 <h2>Como Rodar</h2>
 
@@ -28,5 +32,8 @@ yarn dev
 ~~~Terminal
 http://localhost:3000
 ~~~
+
+![image](https://user-images.githubusercontent.com/88890771/201542094-b2403cac-8919-4e2c-8073-1644296a2869.png)
+
 
 >  This is a challenge by [Coodesh](https://coodesh.com/)
