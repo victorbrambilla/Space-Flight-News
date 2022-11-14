@@ -54,7 +54,7 @@ export const Header = ({ setParams, params }: IProps) => {
             width: 200,
           }}
         >
-          <MenuItem value={'publishedAt:asc'}>Mais antigas</MenuItem>
+          <MenuItem value={'publishedAt:asc'}>Mais Antigas</MenuItem>
           <MenuItem value={'publishedAt:desc'}>Mais Novas</MenuItem>
         </TextField>
       </Box>
