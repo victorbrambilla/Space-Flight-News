@@ -8,8 +8,9 @@ https://space-flight-news-two.vercel.app/
 - [x] Next - https://nextjs.org/
 - [x] Typescript - https://www.typescriptlang.org/
 - [x] MUI - https://mui.com/pt/
-- [x] axios - https://axios-http.com/ptbr/
-- [x] jest
+- [x] Axios - https://axios-http.com/ptbr/
+- [x] Storybook - https://storybook.js.org/
+- [x] Jest
 - [x] Docker
 
 <h2>Como Rodar</h2>
