@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
-import {theme} from '../src/presentation/theme';
+import {theme} from '../src/presentation/theme/theme';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
