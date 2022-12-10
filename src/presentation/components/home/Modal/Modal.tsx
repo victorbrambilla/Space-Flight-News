@@ -18,7 +18,7 @@ const formatDate = (date: string) => {
   return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
 };
 
-interface IProps {
+export interface IProps {
   news: ArticleModel;
 }
 export default function Modal({ news }: IProps) {
