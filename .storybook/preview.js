@@ -1,6 +1,5 @@
-import { ThemeProvider } from '@mui/material/styles';
-import { CssBaseline } from '@mui/material';
-import {theme} from '../src/presentation/theme/theme';
+ import { CssBaseline } from '@mui/material';
+ import { Layout } from '../src/presentation/components/Layout';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -14,9 +13,9 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <ThemeProvider theme={theme}>
+    <Layout>
       <Story />
       <CssBaseline />
-    </ThemeProvider>
+    </Layout>
   )
 ];

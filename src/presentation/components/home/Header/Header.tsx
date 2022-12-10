@@ -12,7 +12,7 @@ import { GetArticles } from '@/domain/usecases';
 import SearchIcon from '@mui/icons-material/Search';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 
-interface IProps {
+export interface IProps {
   setParams: (params: GetArticles.Params) => void;
   params: GetArticles.Params;
 }

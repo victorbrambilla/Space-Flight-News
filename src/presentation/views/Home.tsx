@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { ArticleModel } from '@/domain/models';
 import { CardNews } from '@/presentation/components/home/CardNews/CardNews';
-import { Header } from '@/presentation/components/home/Header';
+import { Header } from '@/presentation/components/home/Header/Header';
 import { Box, Button } from '@mui/material';
 import { MakeRemoteGetArticles } from '@/main/factories/usecases';
 import { GetArticles } from '@/domain/usecases';
