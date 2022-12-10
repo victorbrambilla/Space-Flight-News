@@ -12,9 +12,9 @@ import { ArticleModel } from '@/domain/models';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import dynamic from 'next/dynamic';
 
-const Modal = dynamic(() => import('./Modal'));
+const Modal = dynamic(() => import('../Modal'));
 
-interface IProps {
+export interface IProps {
   news: ArticleModel;
   index: number;
 }
