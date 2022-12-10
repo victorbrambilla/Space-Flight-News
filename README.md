@@ -33,7 +33,8 @@ yarn dev
 http://localhost:3000
 ~~~
 
-![image](https://user-images.githubusercontent.com/88890771/201542094-b2403cac-8919-4e2c-8073-1644296a2869.png)
+![ezgif-2-5c087a0b87](https://user-images.githubusercontent.com/88890771/201704620-537485c5-e971-4a6a-a643-5806a50c64ce.gif)
+
 
 
 >  This is a challenge by [Coodesh](https://coodesh.com/)
