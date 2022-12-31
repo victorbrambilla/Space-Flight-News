@@ -39,6 +39,7 @@ export const CardNews = ({ news, index }: IProps) => {
           flexDirection: 'column-reverse',
         },
       }}
+      data-testid='card-news'
     >
       <Box
         sx={{

@@ -50,6 +50,7 @@ export const Header = ({ setParams, params }: IProps) => {
           onChange={(e) => {
             setParams({ ...params, _sort: e.target.value });
           }}
+          inputProps={{ "data-testid": "content-input" }}
           sx={{
             width: 200,
           }}

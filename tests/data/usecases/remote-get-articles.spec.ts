@@ -1,8 +1,7 @@
-import { RemoteGetArticles } from '@/data/usecases';
-import { GetArticles } from '@/domain/usecases';
-import { ArticlesRepository } from '@/infra/db/repository';
-import { api } from '@/infra/http';
-
+import { RemoteGetArticles } from './../../../src/data/usecases/remote-get-articles';
+import { GetArticles } from './../../../src/domain/usecases/get-articles';
+import { ArticlesRepository } from './../../../src/infra/db/repository'
+import { api } from './../../../src/infra/http';
 const makeSut = (): GetArticles => {
   const sut = new RemoteGetArticles(new ArticlesRepository(api));
   return sut;
